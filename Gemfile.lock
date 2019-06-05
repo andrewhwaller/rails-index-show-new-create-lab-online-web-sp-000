@@ -69,6 +69,7 @@ GEM
     factory_bot_rails (5.0.2)
       factory_bot (~> 5.0.2)
       railties (>= 4.2.0)
+    ffi (1.11.1)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.6.0)
@@ -139,6 +140,9 @@ GEM
       rspec-mocks (~> 3.8.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
+    sassc (2.0.1)
+      ffi (~> 1.9)
+      rake
     sdoc (0.4.2)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
@@ -180,6 +184,7 @@ DEPENDENCIES
   jquery-rails
   rails (= 5.0.7.1)
   rspec-rails (>= 3.5.2)
+  sassc
   sdoc (~> 0.4.0)
   spring
   sqlite3 (~> 1.3.6)
